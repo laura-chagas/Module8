@@ -37,9 +37,9 @@ class Pessoa(age: Int, dayB: Int, monthB: Int, yearB: Int, name: String) {
     }
 
     fun ajustarDataDenascimento(day: Int, month: Int, year: Int) {
-        this.dayB = day
-        this.monthB = month
-        this.yearB = year
+        dayB = day
+        monthB = month
+        yearB = year
     }
 
 }
