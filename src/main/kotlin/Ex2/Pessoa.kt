@@ -3,23 +3,23 @@ package Ex2
 import java.time.LocalDate
 
 class Pessoa(age: Int, dayB: Int, monthB: Int, yearB: Int, name: String) {
-    var age = age
+    private var age = age
         get() {return field}
         set(value) {field = value}
 
-    var dayB = dayB
+    private var dayB = dayB
         get() {return field}
         set(value) {field = value}
 
-    var monthB = monthB
+    private var monthB = monthB
         get() {return field}
         set(value) {field = value}
 
-    var yearB = yearB
+    private var yearB = yearB
         get() {return field}
         set(value) {field = value}
 
-    var name = name
+    private var name = name
         get() {return field}
         set(value) {field = value}
 
