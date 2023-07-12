@@ -19,16 +19,15 @@ class Caixa {
     }
     fun productPreReg(){
         arrayProduct.add(Product("Banana", 5, 2.5))
+        arrayProduct.add(Product("Caju", 5, 2.5))
     }
     fun totalProduct() {
        productPreReg()
-        var pdE = true
         println("O Qual produto você deseja? ")
         var produto = readln()
 
         for (i in arrayProduct) {
             if (i.nameProduct.equals(produto, ignoreCase = true)) {
-                pdE = true
                 println("Informe a quantidade de produtos que você deseja comprar: ")
                 val qtdCompra = readln().toInt()
 
@@ -37,6 +36,7 @@ class Caixa {
                     println("Valor total da compra: R$$total")
                     println("COMPRA REGISTRADA COM SUCESSO")
                     i.qtdProduct -= qtdCompra
+                    return
 
                 } else {
                     println("A quantidade de itens que você vai comprar é maior que a quantidade de itens no estoque")
