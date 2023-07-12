@@ -32,4 +32,4 @@
 - Quando 4 notas válidas forem lidas, deve ser impressa a mensagem "média = ” seguido do valor do cálculo.
 - Antes da leitura de X deve ser impressa a mensagem "novo cálculo(1-sim 2-nao)" e esta mensagem deve ser apresentada novamente se o valor da entrada padrão para X for menor do que 1 ou maior do que
 
-**Observações: lembrar de usar os conceitos vistos de POO(classes, atriutos, métodos, objetos e encapsulamento)**
+**Observações: lembrar de usar os conceitos vistos de POO (classes, atriutos, métodos, objetos e encapsulamento)**
