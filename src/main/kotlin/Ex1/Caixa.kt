@@ -41,7 +41,6 @@ class Caixa {
                 } else {
                     println("A quantidade de itens que você vai comprar é maior que a quantidade de itens no estoque")
                 }
-                break
             }
             else  {
                 println("Esse produto não está cadastrado!")
