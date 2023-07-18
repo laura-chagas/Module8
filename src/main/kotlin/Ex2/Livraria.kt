@@ -30,8 +30,9 @@ fun menuPrincipal() {
             }
 
             else -> {
-                continuar = false
                 println("Opção inválida!")
+                continuar = false
+
             }
         }
     } while (!continuar)
@@ -91,8 +92,9 @@ fun menuExibir() {
 
             4 -> menuPrincipal()
             else -> {
-                continuar = false
                 println("Opção inválida!")
+                continuar = false
+                
             }
         }
     } while (!continuar)
