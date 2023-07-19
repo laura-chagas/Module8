@@ -12,7 +12,7 @@
 - procurar um termo no dicionário
 - listar todos os termos existentes em ordem alfabética.
 
-  4. Faça um programa onde o usuário deverá adicionar primeiramente seu nome, seguido de sua profissão(nome e profissão são variáveis diferentes). O usuário deverá inserir um valor com duas casas decimais, equivalente ao salário de um habitante em SimCity para cada mês do ano. Calcule e mostre o valor que este habitante deve pagar de imposto referente a cada mês do seu salário, segundo a tabela abaixo.
+4. Faça um programa onde o usuário deverá adicionar primeiramente seu nome, seguido de sua profissão(nome e profissão são variáveis diferentes). O usuário deverá inserir um valor com duas casas decimais, equivalente ao salário de um habitante em SimCity para cada mês do ano. Calcule e mostre o valor que este habitante deve pagar de imposto referente a cada mês do seu salário, segundo a tabela abaixo.
 
 | RENDA              | TAXA DE IMPOSTO |
 |:------------------|:---------------:|
