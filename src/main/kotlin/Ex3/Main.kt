@@ -12,7 +12,7 @@ fun main() {
 
     dictionary.findWord("Escada")
 
-    dictionary.findWord("Mesa")
+    dictionary.findWord("MESA")
 
    // Implementação extra...
 
