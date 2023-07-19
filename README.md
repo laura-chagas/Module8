@@ -18,8 +18,7 @@
 
 2. Faça um programa de controle de lista de compras de acordo com as seguintes especificações:
 
-- a. O programa deve ter um menu que peça para a pessoa usuária definir qual o tipo de alimento ela quer incluir na
-  lista.
+- a. O programa deve ter um menu que peça para a pessoa usuária definir qual o tipo de alimento ela quer incluir na lista.
 - b. A pessoa usuária só pode incluir alimentos do tipo: VERDURA, LEGUMES, GRÃOS e OUTROS.
     - i. Caso a pessoa tente incluir outro tipo de alimento, o programa deve estourar uma exception do tipo
       IllegalArgumentException com a mensagem “Tipo de alimento inválido”.
