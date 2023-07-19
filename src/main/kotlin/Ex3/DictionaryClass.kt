@@ -1,25 +1,25 @@
 package Ex3
 
 class DictionaryClass {
-    private var dictionary = mutableListOf<String>()
-    private var dictionary2 = mutableMapOf<String, String>()
+    private var dictionaryList = mutableListOf<String>()
+    private var dictionaryMap = mutableMapOf<String, String>()
 
     fun addWord(inputWord: String) {
-        dictionary.add(inputWord)
+        dictionaryList.add(inputWord)
     }
 
     fun addMeaningAndWord(inputWord: String, meaningInput: String){
-        dictionary2[inputWord] = meaningInput
+        dictionaryMap[inputWord] = meaningInput
     }
 
     fun findWordAndShowMeaning(inputWord: String){
-        println("Significado do termo $inputWord: "  + dictionary2.getValue(inputWord))
+        println("Significado do termo $inputWord: "  + dictionaryMap.getValue(inputWord))
     }
 
     fun findWord(inputWord: String) {
         println("Buscando termo...")
 
-        for (i in dictionary) {
+        for (i in dictionaryList) {
             if (i.equals(inputWord, ignoreCase = true)) {
 
                 println("Termo $inputWord foi encontrado!")
@@ -34,7 +34,7 @@ class DictionaryClass {
 
     fun showWords() {
         println("-------DICIONARIO-------")
-        for (i in dictionary.sorted()) {
+        for (i in dictionaryList.sorted()) {
             println(i)
         }
         println("------------------------")
